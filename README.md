@@ -2,50 +2,54 @@
 {
   "depends_on": [],
   "author": "Stephan Bökelmann",
-  "first_used": "2025-03-17",
-  "keywords": ["learning", "exercises", "education", "practice"]
+  "first_used": "2025-04-08",
+  "keywords": ["scrum", "vision", "story", "epic"]
 }
 --->
 
-# Learning Through Exercises
+# From Vision to Story: Structuring Agile Product Development
 
 ## Introduction
-Learning by doing is one of the most effective methods to acquire new knowledge and skills. Rather than passively consuming information, actively engaging in problem-solving fosters deeper understanding and long-term retention. By working through structured exercises, students can grasp complex concepts in a more intuitive and applicable way. This approach is particularly beneficial in technical fields like programming, mathematics, and engineering.
+Before any feature is implemented, there must be a clear understanding of **why** it exists. A well-articulated **Product Vision** provides direction, while **Epics**, **Features**, and **User Stories** break that vision down into actionable development units. In this exercise, you will learn how to derive implementable work from a product-level goal and practice writing structured user-facing requirements.
 
-### Further Readings and Other Sources
-- [The Importance of Practice in Learning](https://www.sciencedirect.com/science/article/pii/S036013151300062X)
-- "The Art of Learning" by Josh Waitzkin
-- [How to Learn Effectively: 5 Key Strategies](https://www.edutopia.org/article/5-research-backed-learning-strategies)
+A strong **Product Vision** expresses the intended impact of a product:
+- *"Help students collaborate by providing a shared digital workspace."*
+- *"Enable small businesses to automate invoice handling with zero coding knowledge."*
+
+From this, you can define **Epics** like "Collaborative Editing" or "Invoice Parsing" and break them down into more manageable **Features** and **User Stories**, e.g.:
+- *Epic:* Collaborative Editing
+  - *Feature:* Real-time shared documents
+    - *Story:* As a user, I want to see edits from my teammates in real time so we can work together more efficiently.
+
+This structured breakdown allows teams to implement purpose-driven software iteratively and transparently.
+, there must be a clear understanding of **why** it exists. A well-articulated **Product Vision** provides direction, while **Epics**, **Features**, and **User Stories** break that vision down into actionable development units. In this exercise, you will learn how to derive implementable work from a product-level goal and practice writing structured user-facing requirements.
+
+## Further Readings
+- Roman Pichler: [Product Vision Board](https://www.romanpichler.com/tools/product-vision-board/)
+- Atlassian Agile Coach: [How to write epics and user stories](https://www.atlassian.com/agile/project-management/epics)
+- Marty Cagan: *Inspired – How to Create Tech Products Customers Love*
 
 ## Tasks
-1. **Write a Summary**: Summarize the concept of "learning by doing" in 3-5 sentences.
-2. **Example Identification**: List three examples from your own experience where learning through exercises helped you understand a topic better.
-3. **Create an Exercise**: Design a simple exercise for a topic of your choice that someone else could use to practice.
-4. **Follow an Exercise**: Find an online tutorial that includes exercises and complete at least two of them.
-5. **Modify an Existing Exercise**: Take a basic problem from a textbook or online course and modify it to make it slightly more challenging.
-6. **Pair Learning**: Explain a concept to a partner and guide them through an exercise without giving direct answers.
-7. **Review Mistakes**: Look at an exercise you've previously completed incorrectly. Identify why the mistake happened and how to prevent it in the future.
-8. **Time Challenge**: Set a timer for 10 minutes and try to solve as many simple exercises as possible on a given topic.
-9. **Self-Assessment**: Create a checklist to evaluate your own performance in completing exercises effectively.
-10. **Reflect on Progress**: Write a short paragraph on how this structured approach to exercises has influenced your learning.
+1. Write a clear Product Vision for a fictional or real-world web-based product. Use the format:
+   - Who is it for?
+   - What problem does it solve?
+   - What value does it provide?
 
-<details>
-  <summary>Tip for Task 5</summary>
-  Try making small adjustments first, such as increasing the difficulty slightly or adding an extra constraint.
-</details>
+2. Create one Epic that logically follows from your Vision.
+   - Add at least two Features to your Epic.
+   - Break down each Feature into at least one User Story using the format:
+     *As a [type of user], I want [some goal] so that [some reason].*
+
+3. Annotate one of your User Stories with:
+   - Acceptance criteria (in Given/When/Then or checklist format)
+   - At least two concrete development tasks needed to implement the story
 
 ## Questions
-1. What are the main benefits of learning through exercises compared to passive learning?
-2. How do exercises improve long-term retention?
-3. Can you think of a subject where learning through exercises might be less effective? Why?
-4. What role does feedback play in learning through exercises?
-5. How can self-designed exercises improve understanding?
-6. Why is it beneficial to review past mistakes in exercises?
-7. How does explaining a concept to someone else reinforce your own understanding?
-8. What strategies can you use to stay motivated when practicing with exercises?
-9. How can timed challenges contribute to learning efficiency?
-10. How do exercises help bridge the gap between theory and practical application?
+- How does the Product Vision influence what *not* to build?
+- What is the benefit of writing Features and Epics before User Stories?
+- What distinguishes a good User Story from a vague wish?
+- How do acceptance criteria help clarify scope and validate completion?
 
 ## Advice
-Practice consistently and seek out diverse exercises that challenge different aspects of a topic. Combine exercises with reflection and feedback to maximize your learning efficiency. Don't hesitate to adapt exercises to fit your own needs and ensure that you're actively engaging with the material, rather than just going through the motions.
+A clear Product Vision helps you stay focused and avoid scope creep. Keep your Epics broad but meaningful, and ensure each User Story can stand alone and be tested independently. Discuss your stories with peers or mentors—collaborative refinement leads to better shared understanding and better software.
 
